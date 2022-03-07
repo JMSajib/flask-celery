@@ -1,6 +1,7 @@
 flask
 Flask-Migrate
 FLask-SQLAlchemy
+Flask-CeleryExt
 celery
 redis
 flower
