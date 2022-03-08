@@ -4,4 +4,5 @@ from celery import shared_task
 def divide(x, y):
     import time
     time.sleep(3)
+    print("****** TIME TO START PROCESSING ******")
     return x / y
